@@ -45,8 +45,8 @@ public class BaseTest {
         //String browserName = prop.getProperty("browser");
 
 
-        if (browserName.equalsIgnoreCase("chrome")) {
-//            ChromeOptions options = new ChromeOptions();
+        if (browserName.contains("chrome")) {
+//            ChromeOptions options = new ChromeOptions();    //184 lecture
 //            // Run in headless mode for Jenkins/Linux
 //            options.addArguments("--headless");
 //            options.addArguments("--no-sandbox");
